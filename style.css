@@ -1,0 +1,148 @@
+body
+{
+	margin: 0px !important;
+	overflow-y: hidden;
+	height: 100%;
+	background-color: #236fb2;
+}
+.sidenavL
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 40px;
+	z-index: 20;
+}
+.omnie
+{
+	height: 16.6%;
+	width: 100%;
+	background-color: #333533;
+	transition: width 0.3s;
+	border-radius: 0 30% 30% 0;
+	padding-top: 10px;
+	box-sizing: border-box;
+	color: #adbfce;
+	cursor: pointer;
+}
+a .pion
+{
+	display:block;
+	text-transform:uppercase;
+	width:14px;
+	font-size:22px;
+	line-height:25px;
+	padding:5px;
+	font-weight: bold;
+	text-align: center;
+}
+.mojapraca
+{
+	height: 16.6%;
+	width: 100%;
+	background-color: #097c09;
+	transition: width 0.3s;
+	border-radius: 0 30% 30% 0;
+	cursor: pointer;
+}
+.galeria
+{
+	height: 16.8%;
+	width: 100%;
+	background-color: black;
+	transition: width 0.3s;
+	border-radius: 0 30% 30% 0;
+	cursor: pointer;
+}
+.oferta
+{
+	height: 16.8%;
+	width: 100%;
+	background-color: yellow;
+	transition: width 0.3s;
+	border-radius: 0 30% 30% 0;
+	cursor: pointer;
+}
+.kontakt
+{
+	height: 16.6%;
+	width: 100%;
+	background-color: orange;
+	transition: width 0.3s;
+	border-radius: 0 30% 30% 0;
+	cursor: pointer;
+}
+.znajomi
+{
+	height: 16.6%;
+	width: 100%;
+	background-color: purple;
+	transition: width 0.3s;
+	border-radius: 0 30% 30% 0;
+	cursor: pointer;
+}
+.omnie:hover
+{
+	width: 70px;
+}
+.mojapraca:hover
+{
+	width: 70px;
+}
+.galeria:hover
+{
+	width: 70px;
+}
+.oferta:hover
+{
+	width: 70px;
+}
+.kontakt:hover
+{
+	width: 70px;
+}
+.znajomi:hover
+{
+	width: 70px;
+}
+#omnieC, #mojapracaC, #galeriaC, #ofertaC, #kontaktC, #znajomiC
+{
+	width: 0px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+    transition: 0.8s;
+}
+#omnieC
+{
+	background-color: #333533;
+	z-index: 1;
+}
+#mojapracaC
+{
+	background-color: #097c09;
+	z-index: 2;
+}
+#galeriaC
+{
+	background-color: black;
+	z-index: 3;
+}
+#ofertaC
+{
+	background-color: yellow;
+	z-index: 4;
+}
+#kontaktC
+{
+	background-color: orange;
+	z-index: 5;
+}
+#znajomiC
+{
+	background-color: purple;
+	z-index: 6;
+}
