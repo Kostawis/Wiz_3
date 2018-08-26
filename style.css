@@ -13,35 +13,25 @@ body
 	height: 100%;
 	width: 40px;
 	z-index: 20;
+
 }
 .omnie
 {
 	height: 16.6%;
 	width: 100%;
-	background-color: #333533;
+	background-color: #72C1A4;
 	transition: width 0.3s;
 	border-radius: 0 30% 30% 0;
 	padding-top: 10px;
 	box-sizing: border-box;
-	color: #adbfce;
+	color: black;
 	cursor: pointer;
-}
-a .pion
-{
-	display:block;
-	text-transform:uppercase;
-	width:14px;
-	font-size:22px;
-	line-height:25px;
-	padding:5px;
-	font-weight: bold;
-	text-align: center;
 }
 .mojapraca
 {
 	height: 16.6%;
 	width: 100%;
-	background-color: #097c09;
+	background-color: #BEFF63;
 	transition: width 0.3s;
 	border-radius: 0 30% 30% 0;
 	cursor: pointer;
@@ -50,7 +40,7 @@ a .pion
 {
 	height: 16.8%;
 	width: 100%;
-	background-color: black;
+	background-color: #66FF77;
 	transition: width 0.3s;
 	border-radius: 0 30% 30% 0;
 	cursor: pointer;
@@ -59,7 +49,7 @@ a .pion
 {
 	height: 16.8%;
 	width: 100%;
-	background-color: yellow;
+	background-color: #77FF59;
 	transition: width 0.3s;
 	border-radius: 0 30% 30% 0;
 	cursor: pointer;
@@ -68,7 +58,7 @@ a .pion
 {
 	height: 16.6%;
 	width: 100%;
-	background-color: orange;
+	background-color: #5FC62F;
 	transition: width 0.3s;
 	border-radius: 0 30% 30% 0;
 	cursor: pointer;
@@ -77,7 +67,7 @@ a .pion
 {
 	height: 16.6%;
 	width: 100%;
-	background-color: purple;
+	background-color: #BAB84C;
 	transition: width 0.3s;
 	border-radius: 0 30% 30% 0;
 	cursor: pointer;
@@ -118,31 +108,31 @@ a .pion
 }
 #omnieC
 {
-	background-color: #333533;
+	background-color: #72C1A4;
 	z-index: 1;
 }
 #mojapracaC
 {
-	background-color: #097c09;
+	background-color: #BEFF63;
 	z-index: 2;
 }
 #galeriaC
 {
-	background-color: black;
+	background-color: #66FF77;
 	z-index: 3;
 }
 #ofertaC
 {
-	background-color: yellow;
+	background-color: #77FF59;
 	z-index: 4;
 }
 #kontaktC
 {
-	background-color: orange;
+	background-color: #5FC62F;
 	z-index: 5;
 }
 #znajomiC
 {
-	background-color: purple;
+	background-color: #BAB84C;
 	z-index: 6;
 }
