@@ -62,7 +62,7 @@
 .icon-users:before { content: '\e804';   font-size: 25px; transition: 0.3s;  position: relative; top: 50%; transform: translateY(-50%);} /* '' */
 .icon-folder-open:before { content: '\e805';  font-size: 25px; transition: 0.3s;  position: relative; top: 50%; transform: translateY(-50%);} /* '' */
 .icon-picture:before { content: '\e806';   font-size: 25px; transition: 0.3s;  position: relative; top: 50%; transform: translateY(-50%);} /* '' */
-.icon-home:before { content: '\e807'; } /* '' */
+.icon-home:before { content: '\e807'; position: relative; top: 15px; color: white; font-size: 35px;} /* '' */
 .icon-tags:before { content: '\e808';   font-size: 25px; transition: 0.3s;  position: relative; top: 50%; transform: translateY(-50%);} /* '' */
 .icon-mail-alt:before { content: '\f0e0';  font-size: 25px; transition: 0.3s;  position: relative; top: 50%; transform: translateY(-50%); } /* '' */
 .omnie:hover .icon-user:before { content: '\e803';  font-size: 35px;}
@@ -71,3 +71,4 @@
 .oferta:hover .icon-tags:before { content: '\e808';  font-size: 35px;}
 .kontakt:hover .icon-mail-alt:before { content: '\f0e0';  font-size: 35px;}
 .znajomi:hover .icon-users:before { content: '\e804';  font-size: 35px;}
+.icon-home:hover:before { content: '\e807'; cursor: pointer; transform: scale(1.1);}
