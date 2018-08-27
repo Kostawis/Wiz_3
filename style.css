@@ -1,3 +1,16 @@
+.scroll::-webkit-scrollbar
+{
+	width: 8px;
+}
+.scroll::-webkit-scrollbar-track
+{
+	background-color: #404240;
+}
+.scroll::-webkit-scrollbar-thumb
+{
+	background-color: #0a590a;
+	border-radius: 30px;
+}
 body
 {
 	margin: 0px !important;
@@ -96,15 +109,36 @@ body
 {
 	width: 70px;
 }
+
+@media (min-width: 1202px)
+{
+	img
+	{
+		width: 292.750px;
+	}
+}
+@media (max-width: 1201px)
+{
+	img
+	{
+		width: 25%;
+	}
+}
+
 #omnieC, #mojapracaC, #galeriaC, #ofertaC, #kontaktC, #znajomiC
 {
 	width: 0px;
 	height: 100%;
 	position: fixed;
 	top: 0;
-	left: 0;
+	left: -120px;
 	overflow-x: hidden;
     transition: 0.8s;
+	text-align: center;
+	padding-left: 80px;
+	padding-right: 40px;
+	box-sizing: border-box;
+	font-size: 24px;
 }
 #omnieC
 {
@@ -135,4 +169,10 @@ body
 {
 	background-color: #BAB84C;
 	z-index: 6;
+}
+h1
+{
+	font-weight: bold;
+	font-size: 55px;
+	letter-spacing: 3px;
 }
