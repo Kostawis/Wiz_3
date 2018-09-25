@@ -13,11 +13,17 @@
 }
 body
 {
-	margin: 0px !important;
+	margin: 0 !important;
 	overflow-y: hidden;
 	height: 100%;
-	background: url(foto/drewno.jpg);
-	background-size: 100% auto;
+	background: url(foto/tlo.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+a
+{
+    text-decoration: none;
+    color: white;
 }
 #imie
 {
@@ -36,100 +42,58 @@ body
 .sidenavL
 {
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	height: 100%;
 	width: 40px;
 	z-index: 20;
 
 }
+.omnie, .mojapraca, .galeria, .oferta, .kontakt, .znajomi
+{
+    height: 16.6666666666666%;
+    width: 100%;
+    background: #565759;
+    transition: 0.3s;
+    border-radius: 0 30% 30% 0;
+    cursor: pointer;
+}
 .omnie
 {
-	height: 16.6%;
-	width: 100%;
-	background: url(foto/back1.jpg);
-	transition: width 0.3s;
-	border-radius: 0 30% 30% 0;
 	padding-top: 10px;
 	box-sizing: border-box;
 	color: black;
-	cursor: pointer;
 }
 .mojapraca
 {
-	height: 16.6%;
-	width: 100%;
-	background: url(foto/back2.jpg);
-	transition: width 0.3s;
-	border-radius: 0 30% 30% 0;
-	cursor: pointer;
+
 }
 .galeria
 {
-	height: 16.8%;
-	width: 100%;
-	background-color: #66FF77;
-	transition: width 0.3s;
-	border-radius: 0 30% 30% 0;
-	cursor: pointer;
+
 }
 .oferta
 {
-	height: 16.8%;
-	width: 100%;
-	background-color: #77FF59;
-	transition: width 0.3s;
-	border-radius: 0 30% 30% 0;
-	cursor: pointer;
+
 }
 .kontakt
 {
-	height: 16.6%;
-	width: 100%;
-	background-color: #5FC62F;
-	transition: width 0.3s;
-	border-radius: 0 30% 30% 0;
-	cursor: pointer;
+
 }
 .znajomi
 {
-	height: 16.6%;
-	width: 100%;
-	background-color: #BAB84C;
-	transition: width 0.3s;
-	border-radius: 0 30% 30% 0;
-	cursor: pointer;
-}
-.omnie:hover
-{
-	width: 70px;
-}
-.mojapraca:hover
-{
-	width: 70px;
-}
-.galeria:hover
-{
-	width: 70px;
-}
-.oferta:hover
-{
-	width: 70px;
-}
-.kontakt:hover
-{
-	width: 70px;
-}
-.znajomi:hover
-{
-	width: 70px;
-}
 
+}
+.omnie:hover, .mojapraca:hover, .galeria:hover, .oferta:hover, .kontakt:hover, .znajomi:hover
+{
+	width: 70px;
+    background: #e06745;
+}
 @media (min-width: 1202px)
 {
 	img
 	{
-		width: 292.750px;
+		width: 292.75px;
 	}
 }
 @media (max-width: 1201px)
@@ -142,30 +106,34 @@ body
 
 #omnieC, #mojapracaC, #galeriaC, #ofertaC, #kontaktC, #znajomiC
 {
-	width: 0px;
+	width: 0;
 	height: 100%;
 	position: fixed;
 	top: 0;
 	left: -120px;
 	overflow-x: hidden;
     transition: 0.8s;
-	text-align: center;
 	padding-left: 80px;
 	padding-right: 40px;
 	box-sizing: border-box;
 	font-size: 24px;
 	text-align: justify;
 	padding-bottom: 20px;
+    margin-left: 30px;
 }
 #omnieC
 {
-	background: url(foto/back1.jpg);
-	background-size: 100% 100%;
+    background: rgba(237, 237, 237, 0.90);
+    font-size: 28px;
 	z-index: 1;
+}
+#omnieC > a
+{
+    color: black;
 }
 #mojapracaC
 {
-	background: url(foto/back2.jpg);
+	background: rgba(164, 186, 134, 0.85);
 	z-index: 2;
 }
 #galeriaC
@@ -195,4 +163,40 @@ h1
 	letter-spacing: 3px;
 	text-align: center;
 }
-#Web:hover
+#socialBox
+{
+    margin-top: 10%;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.social
+{
+    display: flex;
+    width: 14vw;
+    height: 20vh;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    font-size: 28px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+}
+.social > a
+{
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+}
+.social:nth-of-type(1){background: #3B5998;}
+.social:nth-of-type(2){background: #1DA1F2;}
+.social:nth-of-type(3){background: #fffc00;}
+.social:nth-of-type(4){background: #cd486b;}
+
+.social:hover:nth-of-type(1){background: #2a4887; transform: scale(1.07);}
+.social:hover:nth-of-type(2){background: #0c90e1; transform: scale(1.07);}
+.social:hover:nth-of-type(3){background: #eeeb00; transform: scale(1.07);}
+.social:hover:nth-of-type(4){background: #bc375a; transform: scale(1.07);}
+
+.social:hover a {transform: scale(1.6);}
