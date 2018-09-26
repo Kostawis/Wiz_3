@@ -165,12 +165,16 @@ h1
 }
 #socialBox
 {
-    margin-top: 10%;
+    margin-top: 13%;
     width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
 }
+
 .social
 {
     display: flex;
@@ -183,6 +187,10 @@ h1
     align-items: center;
     justify-content: center;
     transition: 0.2s ease-in-out;
+}
+.social:hover
+{
+    cursor: pointer;
 }
 .social > a
 {
